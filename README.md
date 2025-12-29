@@ -142,8 +142,8 @@ BUILD_DIR=custom-dir-if-needed make isp
 
 #### Logging over UART
 
-Currently, only the UART1 with baudrate=921600 is used for debuging. To
-enable the log from UART, set the DEUBG=1 when build the project.
+Currently, only the UART1 with baudrate=921600 is used for debuging.
+To enable logging via UART, set DEBUG=1 when building the project.
 
 Any USB to UART dongle will work. Use your favorite terminal emulator to see the
 log, e.g.:
